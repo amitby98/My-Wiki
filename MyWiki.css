@@ -146,5 +146,43 @@ footer {
     margin-top: 25px;
     color: black;
   }
-  
 
+.vhead {
+   margin-top: 250px;
+   text-align: center;
+   line-height: 100px;
+  }
+
+.videos {
+  text-align: center;
+  display: flex;
+}
+
+.video1 {
+  display: flex;
+  margin-top: 100px;
+  margin-left: 100px;
+  margin-bottom: 150px;
+ border-radius: 35px;
+}
+
+.video2 {
+  display: flex;
+  margin-top: 100px;
+  margin-right: 50px;
+  margin-bottom: 150px;
+  margin-left: 50px;
+  border-radius: 35px;
+}
+.video3 {
+  display: flex;
+  margin-top: 100px;
+  margin-bottom: 150px;
+  margin-right: 100px;
+  border-radius: 35px;
+}
+.ihead {
+  text-align: center;
+  line-height: 100px;
+  margin-bottom: 200px;
+ }
