@@ -80,8 +80,8 @@ p {
 }
 
 a:hover {
-    background-color: lightpink;
-    color: white;
+    background-color: wheat;
+    color:steelblue;
 }
 
 .container {
@@ -310,28 +310,18 @@ footer {
    font-size: 30px;
  }
 
- /*.page{
-  height: 700px;
-  background-color: white;
-  background-image: url('https://image.shutterstock.com/image-vector/dreamy-gradient-wallpaper-mandala-pattern-260nw-512166085.jpg');
-  background-repeat: no-repeat;
-  background-size: cover;
- }*/
-
  .chead {
-   font-size: 40px;
-   margin-top: 80px;
+  font-size: 50px;
    text-align: center;
-   padding-top: 100px;
+   padding-bottom: 200px;
+   margin-top:300px;
    color:black;
  }
 
  .icon-bar {
-  /* position: relative; */
   flex-direction: row; 
   align-self: center;
   text-align: center;
-  /* top: 50%; */
   -webkit-transform: translateY(-50%);
   -ms-transform: translateY(-50%);
   transform: translateY(-50%); 
@@ -340,18 +330,16 @@ footer {
 .icon-bar a {
   width: 10%;
   flex-direction: row; 
-  /* display: block; */
   text-align: center;
   padding: 10px;
   transition: all 0.3s ease;
   color: white;
   font-size: 40px;
   border-radius: 50px;
-  /* margin: 2rem; */
 }
 
 .icon-bar a:hover {
-  background-color: #000;
+  background-color:lightpink;
 }
 
 .fa-facebook {
@@ -379,4 +367,18 @@ footer {
 .content {
   margin-left: 75px;
   font-size: 30px;
+}
+
+.start {
+  text-align: center;
+  padding-top: 150px;
+  font-size: 35px;
+}
+.form {
+  text-align: center;
+  padding-top: 40px;
+  font-size: 25px;
+}
+#gender {
+  font-size: 20px;
 }
