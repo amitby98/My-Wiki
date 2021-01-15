@@ -213,8 +213,54 @@ footer {
   margin-bottom: 60px;
  }
  .sentences {
-   font-size: 20px;
+   font-size: 22px;
    text-align: center;
    line-height: 50px;
    margin-bottom: 70px;
+ }
+ .ourstory {
+  margin-top: 250px;
+  text-align: center;
+  line-height: 100px;
+  margin-bottom: 50px;
+ }
+ .ourteam {
+  margin-top: 200px;
+  text-align: center;
+  line-height: 100px;
+  margin-bottom: 50px;
+ }
+ .img6 {
+  border-radius: 35px;
+  margin-right: 50px;
+  margin-left: 150px;
+  margin-bottom: 50px;
+}
+.img7 {
+  border-radius: 35px;
+  margin-bottom: 50px;
+}
+.img8 {
+  border-radius: 35px;
+  margin-bottom: 50px;
+  margin-left: 50px;
+}
+.img9 {
+  border-radius: 35px;
+  margin-bottom: 50px;
+  margin-left: 50px;
+  margin-right: 150px;
+}
+.needs {
+  margin-top: 100px;
+  text-align: center;
+  line-height: 100px;
+  margin-bottom: 50px;
+ }
+ .equipment {
+   font-size: 25px;
+ }
+
+ h2 {
+   font-size: 30px;
  }
