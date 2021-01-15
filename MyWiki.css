@@ -3,6 +3,19 @@
     padding: 0;
     box-sizing: border-box;
   }
+
+  @media screen and (max-width: 1500px) {
+    nav{
+      height: 10%;
+    }
+    .header-img{
+      height: 5rem;
+    }
+    .gridimg{
+      width: 100%;
+      height: 80%;
+    }
+  }
   
   body {
     background-color: LavenderBlush;
@@ -18,7 +31,7 @@ html, body{
   nav{
     display: flex;
     width: 100%;
-    height: 20%;
+    /* height: 20%; */
     top: 0px;
     background: mistyrose;
     align-items: center;
@@ -47,6 +60,14 @@ html, body{
       line-height: 100px;
       font-family: fantasy;
       font-size: 25px;
+  }
+
+  .welcome {
+    font-size: 50px;
+  }
+
+  .whead {
+    font-size: 40px;
   }
 
   h1 {
@@ -78,7 +99,7 @@ a:hover {
      grid-row-start: 2 ;
      grid-row-end: 3;
      justify-self: :start;
-     padding: 100px 100px;
+     /* padding: 100px 100px; */
  }
 
  .content1 {
@@ -230,26 +251,50 @@ footer {
   line-height: 100px;
   margin-bottom: 50px;
  }
+ .imgs {
+   text-align: center;
+   align-content: center;
+ }
  .img6 {
   border-radius: 35px;
   margin-right: 50px;
   margin-left: 150px;
   margin-bottom: 50px;
 }
+.img6:hover{
+  opacity: 0.8;
+  transform: scale(1.1);
+  transition:  transform 2s;
+}
 .img7 {
   border-radius: 35px;
   margin-bottom: 50px;
+}
+.img7:hover{
+  opacity: 0.8;
+  transform: scale(1.1);
+  transition:  transform 2s;
 }
 .img8 {
   border-radius: 35px;
   margin-bottom: 50px;
   margin-left: 50px;
 }
+.img8:hover{
+  opacity: 0.8;
+  transform: scale(1.1);
+  transition:  transform 2s;
+}
 .img9 {
   border-radius: 35px;
   margin-bottom: 50px;
   margin-left: 50px;
   margin-right: 150px;
+}
+.img9:hover{
+  opacity: 0.8;
+  transform: scale(1.1);
+  transition:  transform 2s;
 }
 .needs {
   margin-top: 100px;
@@ -264,3 +309,74 @@ footer {
  h2 {
    font-size: 30px;
  }
+
+ /*.page{
+  height: 700px;
+  background-color: white;
+  background-image: url('https://image.shutterstock.com/image-vector/dreamy-gradient-wallpaper-mandala-pattern-260nw-512166085.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+ }*/
+
+ .chead {
+   font-size: 40px;
+   margin-top: 80px;
+   text-align: center;
+   padding-top: 100px;
+   color:black;
+ }
+
+ .icon-bar {
+  /* position: relative; */
+  flex-direction: row; 
+  align-self: center;
+  text-align: center;
+  /* top: 50%; */
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%); 
+}
+
+.icon-bar a {
+  width: 10%;
+  flex-direction: row; 
+  /* display: block; */
+  text-align: center;
+  padding: 10px;
+  transition: all 0.3s ease;
+  color: white;
+  font-size: 40px;
+  border-radius: 50px;
+  /* margin: 2rem; */
+}
+
+.icon-bar a:hover {
+  background-color: #000;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+  font-size: large;
+}
+
+
+.fa-google {
+  background: #dd4b39;
+  color: white;
+}
+
+.fa-github {
+  background: #000;
+  color: white;
+}
+
+.fa-instagram {
+  background: #bb0000;
+  color: white;
+}
+
+.content {
+  margin-left: 75px;
+  font-size: 30px;
+}
