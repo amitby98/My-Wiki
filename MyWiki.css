@@ -311,10 +311,10 @@ footer {
  }
 
  .chead {
-  font-size: 50px;
+  font-size: 70px;
    text-align: center;
-   padding-bottom: 200px;
-   margin-top:300px;
+   padding-bottom: 300px;
+   padding-top: 450px;
    color:black;
  }
 
@@ -334,8 +334,9 @@ footer {
   padding: 10px;
   transition: all 0.3s ease;
   color: white;
-  font-size: 40px;
+  font-size: 50px;
   border-radius: 50px;
+  margin-bottom: 50px;
 }
 
 .icon-bar a:hover {
@@ -372,13 +373,37 @@ footer {
 .start {
   text-align: center;
   padding-top: 150px;
-  font-size: 35px;
+  font-size: 50px;
 }
 .form {
   text-align: center;
-  padding-top: 40px;
-  font-size: 25px;
+  padding-top: 50px;
+  font-size: 35px;
+  background-color:white;
+  color:black;
+  margin: 50px 500px;
 }
 #gender {
   font-size: 20px;
+  width: 40px;
+  height: 35px;
 }
+
+#comments {
+  font-size: 20px;
+}
+#submit {
+  font-size: 40px;
+  background-color:papayawhip;
+  margin-bottom: 60px;
+  font-family: fantasy;
+  padding: 20px;
+  border-radius: 35px;
+}
+#name {
+  font-size: 25px;
+}
+ #submit:hover{
+   background-color: lightpink;
+   color: white;
+ }
