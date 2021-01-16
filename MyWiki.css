@@ -7,15 +7,34 @@
   @media screen and (max-width: 1500px) {
     nav{
       height: 10%;
+      flex-wrap: wrap;
     }
     .header-img{
-      height: 5rem;
+      height: 10vw;
     }
     .gridimg{
       width: 100%;
       height: 80%;
+    } 
+    .form {
+      width: 100%;
+      text-align: center;
+    }
+    .sec {
+     width: 100%;
+     display: flex;
+     justify-content: center;
+    }
+    .icons {
+      width:100%;
+      text-align: center;
+    }
+    .container {
+      width: 100%;
+      justify-content: center;
     }
   }
+
   
   body {
     background-color: LavenderBlush;
@@ -31,7 +50,6 @@ html, body{
   nav{
     display: flex;
     width: 100%;
-    /* height: 20%; */
     top: 0px;
     background: mistyrose;
     align-items: center;
@@ -49,7 +67,7 @@ html, body{
   }
   
   #logo{
-    display: flex;
+     display: flex;
     inline-size: auto;
   }
  
@@ -85,7 +103,7 @@ a:hover {
 }
 
 .container {
-    margin-top: 100px;
+    margin-top: 200px;
     display:grid;
     grid-template-rows: 5vw 30vw 30vw 30vw;
     grid-template-columns: 5vw 30vw 30vw 30vw 5vw;
@@ -94,12 +112,11 @@ a:hover {
 }
 
  .content {
-     grid-column-start: 2;
+     grid-column: 2;
      grid-column-end: 4 ;
      grid-row-start: 2 ;
      grid-row-end: 3;
      justify-self: :start;
-     /* padding: 100px 100px; */
  }
 
  .content1 {
@@ -325,6 +342,7 @@ footer {
   -webkit-transform: translateY(-50%);
   -ms-transform: translateY(-50%);
   transform: translateY(-50%); 
+  margin-top: 45px;
 }
 
 .icon-bar a {
@@ -383,6 +401,7 @@ footer {
   color:black;
   margin: 50px 500px;
 }
+
 #gender {
   font-size: 20px;
   width: 40px;
